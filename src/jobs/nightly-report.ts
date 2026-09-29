@@ -1,8 +1,8 @@
 import cron from 'node-cron';
-import { formatMoney } from '../lib/money';
+import { formatMoney, roundCents } from '../lib/money';
 
 export function runNightlyReport(): void {
-  const revenue = 1234.567;
+  const revenue = roundCents(1234.567);
   console.log(`Nightly revenue: ${formatMoney(revenue)}`);
 }
 
