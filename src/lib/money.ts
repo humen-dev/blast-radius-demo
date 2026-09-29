@@ -4,6 +4,8 @@ export function roundCents(amount: number): number {
 }
 
 /** Formats an amount of money for display, e.g. "USD 12.50". */
-export function formatMoney(amount: number, currency = 'USD'): string {
+export const DEFAULT_CURRENCY = 'USD';
+
+export function formatMoney(amount: number, currency = DEFAULT_CURRENCY): string {
   return `${currency} ${roundCents(amount).toFixed(2)}`;
 }
