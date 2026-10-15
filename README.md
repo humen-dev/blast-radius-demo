@@ -6,3 +6,9 @@ A tiny Express + TypeScript API used to demo **DevDigest → Blast radius**.
 - `src/lib/slug.ts` — a leaf helper nobody calls yet.
 - `src/routes/*` — HTTP endpoints (`/api/orders`, `/api/invoices`).
 - `src/jobs/nightly-report.ts` — a nightly cron job.
+
+## Run
+
+```bash
+npm install && npm run build && npm start
+```
