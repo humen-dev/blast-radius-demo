@@ -1,2 +1,5 @@
 node_modules/
 dist/
+
+# sdd-engineering run state and version trace
+.sdd/
