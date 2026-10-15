@@ -1,0 +1,8 @@
+{
+  "specsDir": "specs/",
+  "plansDir": "docs/plans/",
+  "checkCommand": "npm run build",
+  "modules": [{ "name": "api", "path": ".", "specsDir": null }],
+  "agentDocs": ["README.md"],
+  "runStateDir": ".sdd/"
+}
